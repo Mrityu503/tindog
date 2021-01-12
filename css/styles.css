@@ -1,0 +1,201 @@
+h1{
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	color: #FFFFFF;
+	margin-top: 10%;
+}
+
+h6{
+	font-weight: bold;
+	font-size: 180%;
+}
+
+body{
+	font-family: Montserrat;
+}
+
+i:hover{
+	color: #ff4c68;
+}
+
+p{
+	text-align: center;
+}
+
+.h2{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: #fff;
+	line-height: 1.5;
+}
+
+.price-heading{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 2.5rem;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.h3{
+	font-size: 1.5rem;
+	font-family: Montserrat;
+	font-weight: bold;
+	text-align: center;
+	padding: 2% 0;
+}
+
+.carousel-item{
+	padding: 7% 15%;
+}
+
+.container-fluid{
+	padding: 3% 8%;
+}
+
+.container{
+	padding: 2%;
+}
+
+.align{
+	margin: 0 25%;
+	text-align: center;
+	line-height: 1.5;
+	color: #8f8f8f;
+}
+
+.testimonial-image{
+	border-radius: 100%;
+	width: 20%;
+	padding-bottom: 3%;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+.dog-image-padding{
+	width: 20%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 25%;
+}
+
+#features{
+	padding: 3% 15% 7%;
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+/*Navigation Bar*/
+
+.navbar{
+	padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+	font-family: Ubuntu;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+
+.nav-item{
+	padding: 0 1.5rem ;
+}
+
+.row{
+	margin-top: 5rem;
+}
+
+	/*Buttons*/
+.btn-outline-light{
+	margin-left: 1.5rem;
+}
+
+.download-btn{
+	margin: 5% 3% 5% 0;
+}
+
+.icon{
+	color: #ef8172;
+	font-size: 3rem;
+	margin-left: 45%;
+	padding: 2% 0;
+}
+
+#title{
+	background-color: #ff4c68;
+}
+
+#testimonials{
+	background-color: #ff4c68;
+	text-align: center;
+}
+	
+#press{
+	background-color: #ff4c68;
+	text-align: center;
+}
+
+#pricing{
+	padding: 100px;
+}
+
+@media (max-width: 990px){
+	#title{
+		text-align: center;
+	}
+	.dog-image-padding{
+		position: static;
+		transform: rotate(0);
+		text-align: center;
+	}
+}
+
+#footer{
+	padding-top: 10%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+#cta{
+	text-align: center;
+	background-color: #ff4c68;
+}
+
+.call-to-action-heading{
+	padding-top: 3%; 
+	font-family: Montserrat;
+	font-size: 2rem;
+	font-weight: 900;
+	color: #fff;
+}
+
+.footer-icons{
+	font-size: 2rem;
+	margin-left: 1%;
+	margin-bottom: 2%;
+}
+
+.back-to-top{
+	font-family: Montserrat;
+	font-size: 2rem;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	color: black;
+	z-index: 1;
+	text-decoration: none;
+}
+.rm-underline{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #ff4c68;
+}
